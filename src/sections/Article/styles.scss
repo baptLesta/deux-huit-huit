@@ -16,6 +16,7 @@
   .imageColumn {
     box-sizing: border-box;
     padding: 20px;
+    padding-top: 0px;
     @include mobile() {
       padding: 0;
       display: flex;

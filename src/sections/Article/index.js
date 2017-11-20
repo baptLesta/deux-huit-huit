@@ -14,7 +14,7 @@ class Article extends Component {
   state = {
     isMobile: false
   }
-  
+
   constructor(props) {
     super();
 
@@ -36,7 +36,7 @@ class Article extends Component {
   get settingsAnimArticle () {
     if (!this.state.isMobile) {
       return (
-        { y: -200, playScale: [-2, 4] }
+        { y: -200, playScale: [-1, 3] }
       )
     } else {
       return (
@@ -48,7 +48,7 @@ class Article extends Component {
   get styleArticle () {
     if (!this.state.isMobile) {
       return (
-        { transform: 'translateY(260px)' }
+        { transform: 'translateY(200px)' }
       )
     } else {
       return (
