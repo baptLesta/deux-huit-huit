@@ -51,7 +51,6 @@
   "devDependencies": {
     "gsap": "^1.20.3",
     "node-sass": "^4.6.1",
-    "nuka-carousel": "^3.0.0",
     "rc-scroll-anim": "^2.0.2",
     "rc-tween-one": "^1.5.5",
     "react-responsive-carousel": "^3.1.28",

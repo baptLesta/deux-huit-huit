@@ -65,7 +65,7 @@ class Article extends Component {
             <img alt='Bouteille Cidre de Glace' src={imgArticle}/>
           </Parallax>
         </div>
-        <Parallax animation={{ y: -10, playScale: [-.4, .4] }} key="1" style={{ transform: 'translateY(10px)' }}>
+        <Parallax animation={{ y: 130, playScale: [-1, 3] }} key="1" style={{ transform: 'translateY(-200px)' }}>
           <div className='contentColumn'>
             <div className='title' dangerouslySetInnerHTML={{__html: article.title}}/>
             <Card {...article.card} withoutParallax />
