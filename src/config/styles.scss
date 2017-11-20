@@ -1,0 +1,24 @@
+// Paths
+$path: '/';
+$imgPath: $path+'img/';
+
+// Responsive
+@mixin mobile() { @media screen and (max-width:640px) { @content; } } // @include mobile { }
+@mixin desktop-small() { @media screen and (min-width:641px) { @content; } } // @include desktop-small { }
+
+@font-face {
+  font-family: 'San Fransisco';
+  src: local('SF Pro Font License'), url("~assets/fonts/SF Pro Font License.rtf") format('rtf');
+}
+
+
+// Fonts
+$arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+//Colors
+$black: #121212;
+$light_grey: #E5E5E5;
+$light_black : rgba(0,0,0, .4);
+
+//global variable
+$header_width: '215px';

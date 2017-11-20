@@ -1,0 +1,17 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+  height: calc(100vh - 215px);
+  width: 100vw;
+  color: black;
+  font-size: Monospace;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include mobile() {
+    height: calc(100vh - 100px);
+    text-align: center;
+  }
+}

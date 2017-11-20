@@ -1,0 +1,29 @@
+{
+
+  "slides":[
+    {
+      "title": "Journal",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "arrow": {
+        "text": "En savoir</br> plus",
+        "path": "/journal"
+      }
+    },
+    {
+      "title": "Histoire",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "arrow": {
+        "text": "En savoir</br> plus",
+        "path": "/histoire"
+      }
+    },
+    {
+      "title": "Produits",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "arrow": {
+        "text": "En savoir</br> plus",
+        "path": "/produits"
+      }
+    }
+  ]
+}

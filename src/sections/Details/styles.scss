@@ -1,0 +1,21 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+  box-sizing: border-box;
+  margin: 40px 60px;
+  width: calc(100% - 120px);
+  height: 300px;
+  display: flex;
+  @include mobile() {
+    margin: 30px;
+    height: 250px;
+    width: calc(100% - 60px);
+  }
+
+  & > * {
+    width: 50%;
+    @include mobile() {
+      width: 100%;
+    };
+  }
+}

@@ -1,0 +1,17 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  width: calc(100vw - 120px);
+  margin-top: 0px;
+  margin-bottom: 60px;
+  @include mobile() {
+    flex-direction: column;
+    padding: 0;
+    width: 100vw;
+    margin-top: 30px;
+    align-items: center;
+  }
+}

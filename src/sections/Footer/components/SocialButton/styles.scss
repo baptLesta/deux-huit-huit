@@ -1,0 +1,34 @@
+@import "~config/styles.scss";
+$heightCircle: 50px;
+
+:local(.component) {
+  margin-bottom: 25px;
+  display: flex;
+  font-weight: 100;
+  font-size: 13px;
+  width: 150px;
+  justify-content: space-between;
+
+  &:hover{
+    color: rgb(137,137,137);
+  }
+
+  &:hover .letter {
+    border-color: rgba(137,137,137, .4);
+  }
+
+  .letter {
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0, .4) ;
+    border-radius: 50%;
+    height: $heightCircle;
+    width: $heightCircle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text {
+    line-height: 2em;
+  }
+}

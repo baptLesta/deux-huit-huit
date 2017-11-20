@@ -1,0 +1,70 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  @include mobile() {
+    height: 40px;
+  }
+
+  .link {
+    cursor: pointer;
+    padding: 2px 0;
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+
+    @include mobile() {
+      font-size: 30px;
+      font-weight: 200;
+    };
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: calc(100% + 4px);
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      visibility: hidden;
+      -webkit-transform: scaleX(0);
+      transform: scaleX(0);
+      -webkit-transition: all 0.3s ease-in-out 0s;
+      transition: all 0.3s ease-in-out 0s;
+    }
+    &:hover:before {
+      visibility: visible;
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+
+    &.active {
+      cursor: default;
+      &:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
+    }
+  }
+
+  .dot{
+    display: inline-block;
+    position: relative; /* postulat de départ */
+    transform: translate(0, -100%); /* décalage de 50% de sa propre taille */
+    height: 3px;
+    width: 3px;
+    margin: 0 20px;
+    background-color: $black;
+    border-radius: 50%;
+    @include mobile() {
+      display: none;
+    }
+  }
+
+  .lastDot {
+    display: none;
+  }
+}

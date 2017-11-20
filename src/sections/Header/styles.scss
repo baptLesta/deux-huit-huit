@@ -1,0 +1,17 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+  padding-top: 20px;
+  height: 120px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @include mobile() {
+    height: 80px;
+  }
+  img.logo {
+    height: 60px;
+    width: auto;
+  }
+}

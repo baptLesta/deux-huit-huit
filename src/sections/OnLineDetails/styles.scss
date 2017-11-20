@@ -1,0 +1,47 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 23px;
+    font-weight: lighter;
+    padding: 70px;
+    padding-bottom: 30px;
+    text-align: left;
+    display: flex;
+    overflow-x: hidden;
+
+    @include mobile() {
+      padding: 0px;
+      font-size: 19px;
+      display: block;
+      padding: 30px;
+    };
+
+    & > * {
+      width: 50%;
+      @include mobile() {
+        width: 100%;
+      }
+      & > * {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        @include mobile() {
+          position: static;
+          transform: none;
+        }
+      }
+    }
+    .content {
+      width: 100%;
+      margin-bottom: 0;
+      left: 0;
+      transform: none;
+      @include mobile() {
+        margin-bottom: 30px;
+      }
+    }
+
+  }

@@ -1,0 +1,32 @@
+{
+  "navbar": [
+    {
+      "title": "Cidrerie",
+      "path": "/"
+    },
+    {
+      "title": "Produits",
+      "path": "/produits"
+    },
+    {
+      "title": "Notre Histoire",
+      "path": "/histoire"
+    },
+    {
+      "title": "Recettes",
+      "path": "/recettes"
+    },
+    {
+      "title": "Journal",
+      "path": "/journal"
+    },
+    {
+      "title": "Points de vente",
+      "path": "/location"
+    },
+    {
+      "title": "Contact",
+      "path": "/contact"
+    }
+  ]
+}

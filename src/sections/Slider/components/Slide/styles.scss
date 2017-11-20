@@ -1,0 +1,53 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+  height: calc(100vh - 215px);
+  width: 100vw;
+  display: flex;
+  min-height: 480px;
+  @include mobile() {
+    flex-direction: column;
+    height: 550px;
+  }
+  .img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+    @include mobile() {
+      height: 200px;
+    }
+  }
+
+  & > * {
+    width: 50%;
+    @include mobile() {
+      width: 100%;
+    }
+  }
+
+  .contentColumn {
+    background-color: white;
+    height: 100%;
+    padding: 0 40px;
+    padding-top: 75px;
+    box-sizing: border-box;
+    text-align: left;
+    @include mobile() {
+      padding: 0 30px;
+      padding-top: 0px;
+      height: 350px;
+    }
+    .title {
+      padding-bottom: 4px;
+      margin: 40px;
+      font-weight: 100;
+      width: min-content;
+      border-bottom: 1px solid $light_black;
+      @include mobile() {
+        margin-top: 30px;
+        padding-top: 0px;
+      }
+    }
+  }
+}

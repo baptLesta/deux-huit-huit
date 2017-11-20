@@ -1,0 +1,23 @@
+{
+  "block1": {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "arrow": {
+      "text": "Découvrez notre</br> procédé de fabrication",
+      "path": "/produits"
+    }
+  },
+  "block2": {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "arrow": {
+      "text": "Découvrez toute notre</br> histoire depuis le tout début",
+      "path": "/histoire"
+    }
+  },
+  "block3": {
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "arrow": {
+      "text": "Venez nous visitez",
+      "path": "/location"
+    }
+  }
+}

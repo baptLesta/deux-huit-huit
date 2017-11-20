@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "title": "Instagram",
+      "content": "100$ + Neige Première pour</br> un cadeau de mariage. Oui</br> c'est possible !",
+      "img": "gift",
+      "link": ""
+    },
+    {
+      "title": "Instagram",
+      "content": "SMAC! Notre Nouveau Cidre</br> pétillant sera du Défi du Parc</br> de la Mauricie",
+      "link": "",
+      "img": "smac"
+    },
+    {
+      "title": "Facebook",
+      "content": "On vous présente notre p'tit</br> nouveau: le Gin du terroir.",
+      "link": "",
+      "img": "gin"
+    }
+  ]
+}

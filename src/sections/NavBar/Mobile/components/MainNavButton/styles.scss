@@ -1,0 +1,67 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+  z-index: 100;
+  .button{
+      top: 0px;
+      position: fixed;
+      right:0px;
+      margin: 20px;
+      cursor: pointer;
+      width: 30px;
+      height: 30px;
+      z-index: 2;
+
+      span{
+          background: #1d1d1b;
+          display: block;
+          width: 30px;
+          height: 4px;
+          border-radius: 5px;
+          margin-bottom: 5px;
+          -webkit-transition: all 0.5s linear;
+          transition: all 0.3s linear;
+      }
+      &.open{
+          span{
+              &:nth-child(1),
+              &:nth-child(3){
+                  transform: translate(0px, 13px) rotate(-45deg) scalex(1.3);
+                      margin: 0;
+              }
+              &:nth-child(2){
+                  height: 0;
+                      margin: 0;
+              }
+              &:nth-child(3){
+                  transform: translate(0px, 9px) rotate(45deg) scalex(1.3);
+              }
+          }
+      }
+  }
+
+  nav.containerNav {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1d1d1b;
+    color: white;
+
+    ul {
+      height: 100%;
+      width: 100%;
+      font-size: 50px;
+      font-family: monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      li {
+        height: 70px;
+        cursor: pointer;
+      }
+    }
+  }
+}

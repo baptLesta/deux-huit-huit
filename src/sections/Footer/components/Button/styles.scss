@@ -1,0 +1,20 @@
+@import "~config/styles.scss";
+
+:local(.component) {
+  position: relative;
+  top: 7px;
+  font-weight: 100;
+  display: block;
+  margin-bottom: 60px;
+
+  a {
+    padding: 15px;
+    border: 1px solid rgba(0,0,0, .4) ;
+    font-size: 13px;
+
+    &:hover {
+      color: rgb(137,137,137);
+      border-color: rgba(137,137,137, .4);
+    }
+  }
+}

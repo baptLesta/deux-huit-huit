@@ -1,0 +1,47 @@
+{
+  "footerDatas":{
+    "newsLetter":{
+      "title": "Infolettre",
+      "content": "Inscriver-vous à notre infolettre pour recevoir nos recettes Curabitur in velit efficitur, lacinia purus fermentum diam. Praesent mauris turpis.",
+      "input": {
+        "text": "Votre courriel",
+        "button": {
+          "text": "Envoyer",
+          "url": ""
+        }
+      }
+    },
+    "contact": {
+      "content": "La Face Cachée de la Pomme </br>617, Route 202</br>Hemmingford (Québec) Canada </br >JQL 1HD</br ></br>Téléphone: (450) 247-2899, poste 228</br>Télécopieur: (450) 247-2690 </br>Courriel : boutique@lafacecachee.com",
+      "buttons": [
+        {
+          "title": "Professionnels",
+          "link": ""
+        },
+        {
+          "title": "Revue de presse",
+          "link": ""
+        }
+      ],
+      "socialButtons": [
+        {
+          "letter": "F",
+          "text": "Suivez-nous<br> sur Facebook",
+          "link": ""
+        },
+        {
+          "letter": "P",
+          "text": "Abonnez-vous<br> sur Pinterest",
+          "link": ""
+        }
+      ]
+    },
+    "legals": {
+      "droits": "tous droits résérvés © La face Cachée De La Pomme",
+      "credits": {
+        "text": "Crédits",
+        "url": ""
+      }
+    }
+  }
+}
